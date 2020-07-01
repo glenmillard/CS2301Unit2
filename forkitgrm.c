@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) //declaring main function the new-skool way.
 		printf("I'm the childish one. %d\n", getpid()); // if there is a process running start up another
 		printf("The variable is %d\n", x); // show the variable - it's the same with both PIDs
 	} else {
-		int x = 15;
+		// int x = 15;
 		printf("I'm the old one. %d\n", getpid());
 		printf("The variable is %d\n", x);
 	}
